@@ -1,4 +1,4 @@
-resource "aws_elb" "application load balancer" {
+resource "aws_elb" "bar" {
   name               = "suneel-elb"
   availability_zones = ["ap-south-1a", "ap-south-1b"]
 
