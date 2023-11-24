@@ -4,7 +4,7 @@ access_key = "AKIAZZYUDJN2FNCTJVCT"
 secret_key = "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"
 }
 
-resource "aws_instance" "one" {
+resource "aws_instance" "one"{
   ami             = "ami-0d92749d46e71c34c"
   instance_type   = "t2.micro"
   key_name        = "suneel_AWS_Key"
@@ -23,7 +23,7 @@ EOF
   }
 }
 
-resource "aws_instance" "two" {
+resource "aws_instance" "two"{
   ami             = "ami-0d92749d46e71c34c"
   instance_type   = "t2.micro"
   key_name        = "suneel_AWS_Key"
